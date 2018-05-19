@@ -1,0 +1,19 @@
+{
+  "name": "text_formatter",
+  "version": "1.0.5",
+  "description": "text formatter",
+  "main": "index.js",
+  "scripts": {
+  },
+  "bin": {
+  },
+  "maintainers": [
+  ],
+  "license": "ISC",
+  "author": "brandonpeng",
+  "dependencies": {
+  },
+  "engines" : {
+    "node" : ">=6.0.0"
+  }
+}

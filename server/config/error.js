@@ -1,0 +1,17 @@
+'use strict';
+
+module.exports = {
+  NO_ERROR: 0,
+  INNER_ERROR: -1,
+  PARAMS_MISSING: -2,
+  PARAMS_INVALID: -7,
+  PARTNER_CALL_ERR: -3,
+  NOT_FOUND: -4,
+  UNKNOWN: -1,
+  VERIFY_ERROR: -5,
+  UNSUPPORTED: -6,
+  RPC_ERROR: -11,
+  NOT_LOGIN: -12,
+  NO_PERMISSION: -13,
+  USER_EXIST: -14
+};

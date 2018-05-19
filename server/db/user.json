@@ -1,0 +1,94 @@
+{
+    "11": {
+        "uid": "11",
+        "name": "11",
+        "role": "11",
+        "password": "11",
+        "voice": "voice/1517304789905_11.wav",
+        "createAt": 1517299062,
+        "updateAt": 1517307608,
+        "face": "face/1517307608077_11.png"
+    },
+    "daiweilong": {
+        "uid": "daiweilong",
+        "name": "戴伟龙",
+        "role": "vip",
+        "password": "daiweilong",
+        "createAt": 1516766218,
+        "updateAt": 1516766218,
+        "face": "face/daiweilong.jpg"
+    },
+    "huhaitao": {
+        "uid": "huhaitao",
+        "name": "胡海涛",
+        "role": "vip",
+        "password": "huhaitao",
+        "createAt": 1516766280,
+        "updateAt": 1516766280,
+        "face": "face/huhaitao.jpg"
+    },
+    "songting": {
+        "uid": "songting",
+        "name": "宋霆",
+        "role": "vip",
+        "password": "songting",
+        "createAt": 1516766311,
+        "updateAt": 1516935086,
+        "face": "face/songting.jpg",
+        "theme": "grey"
+    },
+    "wangkunpeng": {
+        "uid": "wangkunpeng",
+        "name": "王鲲鹏",
+        "role": "vip",
+        "password": "wangkunpeng",
+        "createAt": 1516766361,
+        "updateAt": 1516766361,
+        "face": "face/wangkunpeng.jpg"
+    },
+    "wangxiaolong": {
+        "uid": "wangxiaolong",
+        "name": "王晓龙",
+        "role": "vip",
+        "password": "wangxiaolong",
+        "createAt": 1516766425,
+        "updateAt": 1516766425,
+        "face": "face/wangxiaolong.jpg"
+    },
+    "wuyuanyuan": {
+        "uid": "wuyuanyuan",
+        "name": "吴圆圆",
+        "role": "vip",
+        "password": "wuyuanyuan",
+        "createAt": 1516766473,
+        "updateAt": 1516766473,
+        "face": "face/wuyuanyuan.jpg"
+    },
+    "xuyibin": {
+        "uid": "xuyibin",
+        "name": "徐义斌",
+        "role": "vip",
+        "password": "xuyibin",
+        "createAt": 1516766522,
+        "updateAt": 1516766522,
+        "face": "face/xuyibin.jpg"
+    },
+    "zhouchun": {
+        "uid": "zhouchun",
+        "name": "周纯",
+        "role": "vip",
+        "password": "zhouchun",
+        "createAt": 1516766548,
+        "updateAt": 1516766548,
+        "face": "face/zhouchun.jpg"
+    },
+    "likan": {
+        "uid": "likan",
+        "name": "李侃",
+        "role": "vip",
+        "password": "likan",
+        "createAt": 1516766548,
+        "updateAt": 1516766548,
+        "face": "face/likan.jpg"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "admin": {
+        "id": "admin",
+        "name": "管理员",
+        "role": "root",
+        "password": "admin"
+    }
+}

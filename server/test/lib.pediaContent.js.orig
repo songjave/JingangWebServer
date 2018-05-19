@@ -1,0 +1,22 @@
+"use strict";
+
+const search = require('../lib/pediaContent');
+
+const input = {
+<<<<<<< HEAD
+    bookname: '国际军事',
+    entryName: '地区安全'
+=======
+    bookName: '军事后勤',
+    entryName: '空军航空兵后勤'
+>>>>>>> 3a0ad0e548f45c21bc076d9bcf260b2ec9efea2f
+};
+
+search.searchContent(input, (err, data) => {
+    if (err) {
+        console.log(err);
+        return err;
+    }
+    console.log(data);
+    return data;
+});

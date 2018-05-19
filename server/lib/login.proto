@@ -1,0 +1,26 @@
+
+syntax = "proto3";
+
+package login;
+
+// The ask service definition.
+service Verify {
+  // Sends a greeting
+  rpc CommonVerify (CommonVerifyReq) returns (CommonVerifyRsp) {}
+}
+
+// The request message
+message CommonVerifyReq {
+  string type = 1; //face,voice,text
+  string name = 2;
+  string password = 3;
+  bytes binData = 4;
+}
+
+// The response message
+message CommonVerifyRsp {
+  int32 errCode = 1;
+  string errMsg = 2;
+  string userName = 3;
+  string userRole = 4;
+}

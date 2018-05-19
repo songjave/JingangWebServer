@@ -1,0 +1,339 @@
+.login-body {
+    background: url(../../assets/imgs/login2-background.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    font-family: "Microsoft YaHei" !important;
+    overflow: hidden;
+}
+#leftImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#leftImg img {
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+#container {
+    width: 595px;
+    position: absolute;
+    top: calc(50% - 233px);
+    left: calc(50% - 297.5px);
+}
+.login-header {
+    position: relative;
+    width: 500px;
+    height: 68px;
+    background: url(../../assets/imgs/logo1.png);
+    margin-bottom: 36px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.login-section {
+    position: relative;
+}
+.login-nav {
+    position: relative;
+    width: 73px;
+    height: 360px;
+    float: left;
+}
+.nav-Voice-Inactive {
+    position: relative;
+    width: 73px;
+    height: 29.2%;
+    border: 1px solid #fff;
+    border-right: none;
+    box-shadow: 5px 5px 15px #33333354;
+    background-color: #c5c6c6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 58px auto;
+    margin-bottom: 23.5px;
+    background-image: url(../../assets/imgs/sound.svg);
+}
+.navBtnActive {
+    position: relative;
+    width: 73px;
+    height: 29.2%;
+    border: 1px solid #fff;
+    border-right: none;
+    box-shadow: 5px 5px 15px #33333354;
+    cursor: pointer;
+    background-color: #0c3f6f;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 58px auto;
+}
+.navBtnInactive {
+    position: relative;
+    width: 73px;
+    height: 29.2%;
+    border: 1px solid #fff;
+    border-right: none;
+    cursor: pointer;
+    background-color: #828282;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 58px auto;
+}
+.navBtnActive:hover, .navBtnInactive:hover {
+    background-color: #075baa;
+}
+.navBtnActive:nth-child(1), .navBtnInactive:nth-child(1) {
+    margin-bottom: 23.5px;
+    background-image: url(../../assets/imgs/keyboard.svg);
+}
+.navBtnActive:nth-child(2), .navBtnInactive:nth-child(2) {
+    margin-bottom: 23.5px;
+    /*margin-bottom: 15px; IE6, IE7, IE8, IE9, IE10 */
+    background-image: url(../../assets/imgs/sound.svg);
+
+}
+.navBtnActive:nth-child(3), .navBtnInactive:nth-child(3) {
+    background-image: url(../../assets/imgs/face.svg);
+    background-size: 70px auto;
+}
+.login-main {
+    position: relative;
+    width: 520px;
+    height: 360px;
+    float: left;
+    background-color: #0c3f6f;
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 15px #33333354;
+}
+/*textVerify start*/
+.login-form {
+    position: relative;
+    width: 440px;
+    margin: 10% auto 0 auto;
+}
+.login-form div:nth-child(1) {
+    margin-bottom: 43px;
+}
+.login-label {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+#secret-label {
+    letter-spacing: 5px;
+}
+.passwordVisible, .input-area {
+    height: 28px;
+    width: 63%;
+    padding: 2%;
+    font-size: 28px;
+    font-weight: bold;
+    float: right;
+}
+.passwordHidden {
+    height: 28px;
+    width: 63%;
+    padding: 2%;
+    float: right;
+    -webkit-text-security: disc;
+    font: bold 28px system-ui;
+}
+.openEyes, .closeEyes {
+    position: absolute;
+    top: 12px;
+    left: 390px;
+    width: 28px;
+    height: 28px;
+    background-size: 28px 28px;
+    cursor: pointer;
+}
+.openEyes {
+    background-image: url('../../assets/imgs/passwordHidden.svg');
+}
+.closeEyes {
+    background-image: url('../../assets/imgs/passwordVisible.svg');
+}
+.text-warn {
+    position: absolute;
+    font-size: 24px;
+    color: #ababab;
+    margin-top: 33px;
+    width: 100%;
+    text-align: center;
+}
+.read {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: justify;
+    padding: 20px;
+    line-height: 36px;
+    width: calc(100% - 40px);
+}
+.read-hr {
+    position: absolute;
+    width: calc(100% - 40px);
+    margin: 220px 0 0 20px;
+}
+.login-form div:nth-child(4) {
+    position: absolute;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: calc(50% - 200px);
+}
+.text-btn {
+    width: 300px;
+    height: 54px;
+    margin-left: calc(50% - 150px);
+    font-size: 32px;
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+    color: #fff;
+    background-color: #0065c4;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.text-btn:hover {
+    background-color: #188fff;
+}
+/*textVerify end*/
+
+/*voiceVerify start*/
+.loginMicroActive, .loginMicroInactive {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: calc(50% - 40px);
+    top: calc(50% + 70px);
+    background-color: #efefef;
+    background-repeat: no-repeat;
+    background-size: 55px auto;
+    background-position: center;
+    border-radius: 55px;
+    cursor: pointer;
+}
+.loginMicroActive {
+    background-image: url(../../assets/imgs/blueSound.svg);
+}
+.loginMicroInactive {
+    background-image: url(../../assets/imgs/greySound.svg);
+}
+.voice-warn {
+    font-size: 24px;
+    color: #ababab;
+    text-align: center;
+    margin-top: 140px;
+}
+#audio {
+    display: none;
+}
+.wave-box {
+    position: relative;
+    width: 440px;
+    height: 330px;
+    left: calc(50% - 220px);
+    top: calc(100% - 345px);
+    background-color: #efefef59;
+    display:flex;
+    flex-direction:column;
+}
+.wave{
+    animation:move-forever 3s linear infinite;
+}
+.wave-container {
+    display: block;
+    width: 100%;
+    height: 3.2em;
+    margin-top: auto;
+}
+@keyframes move-forever{
+    0%{
+        transform: translate(-90px , 0%);
+    }
+    100%{
+        transform: translate(85px , 0%)
+    }
+}
+/*voiceVerify end*/
+
+/*faceVerify start*/
+#myVideo {
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+}
+#myVideo {
+    position: relative;
+    margin-left: calc(50% - 220px);
+    margin-top: 15px;
+}
+.face-warn {
+    position: absolute;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    top: 60%;
+    transform: translateY(-240%) translateX(-50%);
+}
+.face-btn-group {
+    position: absolute;
+    top:calc(100% - 110px);
+    left:calc(50% - 142px);
+
+}
+.face-btn {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /*margin: 15px auto 0 auto;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;*/
+    background-color: #00000050;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+.face-btn:hover {
+    background-color: #aaaaaa;
+}
+.right {
+    margin-left: 120px;
+    background-image: url(../../assets/imgs/recall.svg);
+    background-repeat: no-repeat;
+    background-size: 45px auto;
+    background-position:center;
+}
+.left{
+    background-image: url(../../assets/imgs/face-scan.svg);
+    background-repeat: no-repeat;
+    background-size: 60px auto;
+    background-position:center;
+}
+.face-icon-box {
+    position: absolute;
+    width: 440px;
+    height: 330px;
+    left: calc(50% - 220px);
+    top: calc(100% - 345px);
+    background-color: #5a5a5a78;
+}
+.face-icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: calc(50% - 40px);
+    top: calc(50% + 70px);
+    background-color: #efefef;
+    background-image: url(../../assets/imgs/camera.svg);
+    background-repeat: no-repeat;
+    background-size: 70px auto;
+    background-position:center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #33333354;
+    cursor: pointer;
+}
+/*faceVerify end*/

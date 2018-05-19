@@ -1,0 +1,25 @@
+{
+  "children": [
+    {
+      "keyWord": [
+        "东引",
+        "情况",
+        "add01"
+      ],
+      "id": "016",
+      "type": "context",
+      "question": "",
+      "answer": "您是要查询:<div id='radiolist' style='padding:10px; font-size:14px; '><input id='a' name='r' type='radio' value='enemy' /><label>敌情</label><input id='b' name='r' type='radio' value='geography' /><label>地理环境</label></div>"
+    },
+    {
+      "keyWord": [
+        "习总书记",
+        "replace01"
+      ],
+      "id": "010",
+      "type": "context",
+      "question": "",
+      "answer": "无法理解习总书记，请明确"
+    }
+  ]
+}

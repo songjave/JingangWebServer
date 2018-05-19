@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+node_modules/
+#dist/
+server/public/baike/
+server/public/sts/
+server/public/stt/
+server/public/login/
+npm-debug.log
+server/access.log

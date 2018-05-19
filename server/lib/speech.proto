@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+package speech;
+
+// The ask service definition.
+service Recognition {
+  // Sends a greeting
+  rpc Recognize (RecognizeReq) returns (RecognizeRsp) {}
+}
+
+// The request message
+message RecognizeReq {
+  string name = 1;
+  bytes audio = 2;
+}
+
+// The response message
+message RecognizeRsp {
+  string message = 1;
+}

@@ -1,0 +1,29 @@
+{
+    "face": {
+        "sid": "face",
+        "name": "人脸识别服务",
+        "ip": "192.168.1.110",
+        "port": "9017",
+        "createAt": 1515313533,
+        "updateAt": 1516630227,
+        "status": "Success"
+    },
+    "voice": {
+        "sid": "voice",
+        "name": "声纹识别服务",
+        "ip": "192.168.1.110",
+        "port": "9018",
+        "createAt": 1515318558,
+        "updateAt": 1517665080,
+        "status": "Success"
+    },
+    "nlp": {
+        "sid": "nlp",
+        "name": "问答服务",
+        "ip": "192.168.1.123",
+        "port": "9016",
+        "createAt": 1515420567,
+        "updateAt": 1518267653,
+        "status": "Fail"
+    }
+}
