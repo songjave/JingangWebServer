@@ -1,4 +1,3 @@
-
 "use strict";
 
 const httpServer = require("./http/server.js");

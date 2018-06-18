@@ -1,28 +1,32 @@
-.vue-datasource *{
+.vue-datasource * {
     box-sizing: border-box;
+
     font-size: 14px;
 }
 .vue-datasource .panel {
     margin-bottom: 22px;
-    background-color: #fff;
     border: 1px solid transparent;
     border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+    background-color: #fff;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 .vue-datasource .panel-default {
     border-color: #d3e0e9;
 }
 .vue-datasource .panel-heading {
-    padding: 10px 15px;
     border-bottom: 1px solid transparent;
-    border-top-right-radius: 3px;
     border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
 }
 .vue-datasource .panel-default > .panel-heading {
-    height:56px;
-    color: #333333;
-    background-color: #fff;
     border-color: #d3e0e9;
+    height: 56px;
+
+    color: #333;
+    background-color: #fff;
 }
 .vue-datasource .pull-left {
     float: left !important;
@@ -35,112 +39,153 @@
 }
 .vue-datasource label {
     display: inline-block;
-    max-width: 100%;
+
     margin-bottom: 5px;
+    max-width: 100%;
+
     font-weight: bold;
 }
 .vue-datasource .form-control {
     display: block;
-    width: 100%;
-    height: 36px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.6;
-    color: #555555;
-    background-color: #fff;
-    background-image: none;
+
     border: 1px solid #ccd0d2;
     border-radius: 4px;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    padding: 6px 12px;
+    width: 100%;
+    height: 36px;
+
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .vue-datasource .btn {
     display: inline-block;
+
     margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 12px;
+
+    font-size: 14px;
     font-weight: normal;
+    line-height: 1.6;
     text-align: center;
     vertical-align: middle;
-    touch-action: manipulation;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
     white-space: nowrap;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.6;
-    border-radius: 4px;
+
+    background-image: none;
+
+    cursor: pointer;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    touch-action: manipulation;
 }
 .vue-datasource .btn-primary {
-    color: #fff;
-    background-color: #3097D1;
     border-color: #2a88bd;
+
+    color: #fff;
+    background-color: #3097d1;
 }
 .vue-datasource .table {
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    margin-bottom: 22px;
     width: 100%;
     max-width: 100%;
-    margin-bottom: 22px;
-    border-collapse: collapse;
-    border-spacing: 0;
+
     text-align: center;
 }
 .vue-datasource .table > thead > tr > th {
-    vertical-align: bottom;
     border-bottom: 2px solid #ddd;
+
+    vertical-align: bottom;
 }
-.vue-datasource .table th ,.vue-datasource .table td {
+.vue-datasource .table th,
+.vue-datasource .table td {
+    border-top: 1px solid #ddd;
     padding: 8px;
+
     line-height: 1.6;
     vertical-align: top;
-    border-top: 1px solid #ddd;
 }
 .vue-datasource .table-striped > tbody > tr:nth-of-type(odd) {
     background-color: #f9f9f9;
 }
-.vue-datasource .success th ,.vue-datasource .success td{
+.vue-datasource .success th,
+.vue-datasource .success td {
     background-color: #dff0d8;
 }
 .vue-datasource .pagination {
     display: inline-block;
-    padding-left: 0;
+
     margin: 22px 0;
     border-radius: 4px;
+    padding-left: 0;
 }
 .vue-datasource .pagination > li {
     display: inline;
 }
-.pagination > li > a,.pagination > li > span {
-    position: relative;
+.pagination > li > a,
+.pagination > li > span {
     float: left;
+
+    position: relative;
+
+    margin-left: -1px;
+    border: 1px solid #ddd;
     padding: 6px 12px;
+
     line-height: 1.6;
     text-decoration: none;
-    color: #3097D1;
+
+    color: #3097d1;
     background-color: #fff;
-    border: 1px solid #ddd;
-    margin-left: -1px;
 }
-.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
-    color: #777777;
-    background-color: #fff;
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
     border-color: #ddd;
+
+    color: #777;
+    background-color: #fff;
+
     cursor: not-allowed;
 }
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
     z-index: 3;
+
+    border-color: #3097d1;
+
     color: #fff;
-    background-color: #3097D1;
-    border-color: #3097D1;
+    background-color: #3097d1;
+
     cursor: default;
 }
-.vue-datasource .pagination > li:first-child > a, .vue-datasource .pagination > li:first-child > span {
+.vue-datasource .pagination > li:first-child > a,
+.vue-datasource .pagination > li:first-child > span {
     margin-left: 0;
-    border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 .vue-datasource .text-center {
     text-align: center;
@@ -149,19 +194,24 @@
 
 
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .form-inline .form-group {
         display: inline-block;
+
         margin-bottom: 0;
+
         vertical-align: middle;
     }
     .form-inline .control-label {
         margin-bottom: 0;
+
         vertical-align: middle;
     }
     .form-inline .form-control {
         display: inline-block;
+
         width: auto;
+
         vertical-align: middle;
     }
 }
